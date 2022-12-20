@@ -123,6 +123,8 @@ int varPerformance = ExcelData.performanceCheckStatus(testParams.driver, "TimeDa
 				iTestStatus += Vehicle.issuingInfo(testParams, "issue");
 				Reporting.PrintLn(testParams, "Ending - Vehicle.issuingInfo() - status = " + iTestStatus);
 				*/
+				
+				
 
 			} catch (Exception e) {
 				System.out.println(className + "::" + "There was some type of exception - " + e + "\r\nStackTrace = "
