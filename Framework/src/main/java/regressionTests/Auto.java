@@ -99,7 +99,7 @@ public class Auto extends BaseTest {
 				Global.LaunchBrowser(testParams, sURLLocation);
 				Reporting.PrintLn(testParams, "Browser is launched");
 				
-int varPerformance = ExcelData.performanceCheckStatus(testParams.driver, "Madison", "Quote (seconds)", "//input[@id='j_username']",startTime);
+int varPerformance = ExcelData.performanceCheckStatus(testParams.driver, "TimeData", "Quote (seconds)", "//input[@id='j_username']",startTime);
 				System.out.println(varPerformance);
 			/*	iTestStatus += Login.login(testParams, "Login");
 				Reporting.PrintLn(testParams, "Ending - Login.login() - status = " + iTestStatus);
